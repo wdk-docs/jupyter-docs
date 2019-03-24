@@ -1,0 +1,78 @@
+# 常见目录和文件位置
+
+我们很高兴您能成为贡献者，我们希望您能发现您对项目的影响。感谢您与我们分享您的兴趣，想法和技能。
+可以设置环境变量以针对每种文件类型的位置进行自定义。
+
+## 配置文件
+
+配置文件默认存储在`~/.jupyter`目录中。
+
+JUPYTER_CONFIG_DIR
+
+设置此环境变量以使用 Jupyter 配置文件以外的特定目录（默认值除外）。
+
+除了上面提到的用户配置目录之外，Jupyter 还有一个搜索路径，其中包含将从中加载配置文件的其他位置。
+以下是按优先顺序搜索的位置表：
+
+```sh
+Unix Windows
+JUPYTER_CONFIG_DIR
+{sys.prefix}/etc/jupyter/
+/usr/local/etc/jupyter/ /etc/jupyter/ %PROGRAMDATA% jupyter\
+```
+
+要列出当前使用的配置目录，可以从命令行运行以下命令:
+
+```sh
+jupyter --paths
+```
+
+## 数据文件
+
+Jupyter 使用搜索路径来查找可安装的数据文件，例如 kernelspecs 和 notebook 扩展。
+搜索资源时，代码将搜索从第一个目录开始的搜索路径，直到找到包含资源的位置。
+
+每个类别的文件都位于搜索路径的每个目录的子目录中。
+例如，内核规范在 kernels 子目录中。
+
+JUPYTER_PATH
+
+设置此环境变量以为数据搜索路径提供额外的目录。
+JUPYTER_PATH 应该包含一系列目录，由 os.pathsep（在 Windows 上，在 Unix 上）分隔。
+在其他位置之前搜索 JUPYTER_PATH 中给出的目录。
+
+```sh
+Linux (& other free desktops) Mac Windows
+JUPYTER_PATH
+~/.local/share/jupyter/ (respects $XDG_DATA_HOME) ~/Library/Jupyter %APPDATA% jupyter
+{sys.prefix}/share/jupyter/
+/usr/local/share/jupyter /usr/share/jupyter %PROGRAMDATA jupyter
+```
+
+## 运行时文件
+
+连接文件之类的东西只在特定进程的生命周期中有用，它有一个运行时目录。
+
+在 Linux 和其他免费桌面平台上，默认情况下，这些运行时文件存储在\ \$ XDG_RUNTIME_DIR / jupyter 中。
+在其他平台上，它是用户数据目录的运行时/子目录（上表的第二行）。
+
+环境变量也可用于设置运行时目录。
+
+JUPYTER_RUNTIME_DIR
+
+设置此项以覆盖 Jupyter 存储运行时文件的位置。
+
+## 摘要
+
+JUPYTER_CONFIG_DIR 用于配置文件位置
+
+JUPYTER_PATH 用于数据文件目录位置
+
+JUPYTER_RUNTIME_DIR 用于运行时文件位置
+
+!!! note "See also"
+
+    jupyter_core.paths
+
+    用于查找这些目录的Python API。
+    jupyter命令从命令行找到这些目录。

@@ -1,17 +1,17 @@
 # 贡献者指南
 
-## Developer Guide
+- 开发者指南
+- IPython 开发指南（来源：旧的 IPython wiki）
+- 文档指南
+- 通讯指南
 
-IPython Development Guide (source: old IPython wiki)
+无论您是 Project Jupyter 子项目还是 IPython 的新成员，回归者或当前贡献者，我们都欢迎您。
 
-## Documentation Guide
+Jupyter 项目在过去几年中稳步增长，很高兴看到人们使用这些项目的方式很多。
+由于这种快速扩展，我们的项目维护人员正在平衡许多需求，需求和资源。
+我们要求贡献者花些时间熟悉我们的贡献指南，并花些时间了解我们的项目沟通和工作流程。
 
-## Communications Guide
+贡献者指南和个别项目文档提供指导。如果您有疑问，请咨询我们。
+社区资源提供有关我们常用通信方法的信息。
 
-Whether you are a new, returning, or current contributor to Project Jupyter’s subprojects or IPython, we welcome you.
-
-Project Jupyter has seen steady growth over the past several years, and it is wonderful to see the many ways people are using these projects. As a result of this rapid expansion, our project maintainers are balancing many requirements, needs, and resources. We ask contributors to take some time to become familiar with our contribution guides and spend some time learning about our project communication and workflow.
-
-The Contributor Guides and individual project documentation offer guidance. If you have a question, please ask us. Community Resources provides information on our commonly used communication methods.
-
-We are very pleased to have you as a contributor, and we hope you will find valuable your impact on the projects. Thank you for sharing your interests, ideas, and skills with us.
+我们非常高兴您能作为贡献者，我们希望您能发现您对项目的影响。感谢您与我们分享您的兴趣，想法和技能。

@@ -1,0 +1,31 @@
+# 安装内核(可选)
+
+此信息提供了使用不同编程语言（内核）的 Jupyter Notebook 的高级视图。
+
+## 是否已预先安装任何语言？
+
+是的，安装 Jupyter Notebook 也将安装 IPython 内核。
+这允许使用 Python 编程语言在笔记本上工作。
+
+## 如何安装 Python 2 和 Python 3？
+
+要安装其他版本的 Python，即同时提供 Python 2 和 3，请参阅有关安装内核的 IPython 文档。
+
+## 如何安装 R 或 Julia 等其他语言？
+
+要以非 Python 语言运行笔记本，例如 R 或 Julia，您需要安装其他内核。
+有关更多信息，请参阅可用内核的完整列表。
+
+!!! note "也可以看看"
+
+    [Jupyter项目](https://jupyter.readthedocs.io/en/latest/projects/subprojects.html#subprojects)
+
+    各个Jupyter或IPython项目的详细安装说明。
+
+    [Kernels](https://jupyter.readthedocs.io/en/latest/projects/kernels.html#kernels-langs)
+
+    有关其他编程语言内核的信息。
+
+    [Jupyter客户端的内核文档](https://jupyter-client.readthedocs.io/en/latest/kernels.html#kernels)
+
+    关于内核的技术信息。

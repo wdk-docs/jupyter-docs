@@ -1,9 +1,7 @@
 # 发行说明
 
-Each project’s documentation and GitHub repository has information about releases and changes from the prior release.
+每个项目的文档和 GitHub 存储库都包含有关先前版本的发布和更改的信息。
 
-Note
+!!! note "Coming Soon"
 
-Coming Soon
-
-We’re actively working on a graphic that displays each project, their current release, and a link to the changelog. Thanks for your patience.
+    我们正在积极研究显示每个项目，当前版本以及更改日志链接的图形。谢谢你的耐心。
