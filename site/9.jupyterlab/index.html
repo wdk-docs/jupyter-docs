@@ -40,7 +40,7 @@
     
     
       
-        <title>关于我们 - jupyter Docs</title>
+        <title>JupyterLab - jupyter Docs</title>
       
     
     
@@ -103,7 +103,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#_1" tabindex="1" class="md-skip">
+      <a href="#jupyterlab" tabindex="1" class="md-skip">
         跳转至
       </a>
     
@@ -129,7 +129,7 @@
                 jupyter Docs
               </span>
               <span class="md-header-nav__topic">
-                关于我们
+                JupyterLab
               </span>
             
           
@@ -201,14 +201,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href=".." title="jypyter" class="md-tabs__link md-tabs__link--active">
+      <a href=".." title="jypyter" class="md-tabs__link">
         jypyter
       </a>
     
@@ -328,7 +330,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../9.jupyterlab/" title="9.jupyterlab" class="md-tabs__link">
+        <a href="./" title="9.jupyterlab" class="md-tabs__link md-tabs__link--active">
           9.jupyterlab
         </a>
       
@@ -410,20 +412,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="关于我们" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../About-Us/" title="关于我们" class="md-nav__link">
       关于我们
     </a>
-    
   </li>
 
     
@@ -1151,10 +1144,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12" checked>
     
     <label class="md-nav__link" for="nav-12">
       9.jupyterlab
@@ -1170,11 +1165,171 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../9.jupyterlab/" title="JupyterLab" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        JupyterLab
+      </label>
+    
+    <a href="./" title="JupyterLab" class="md-nav__link md-nav__link--active">
       JupyterLab
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="入门" class="md-nav__link">
+    入门
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" title="安装" class="md-nav__link">
+    安装
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conda" title="conda" class="md-nav__link">
+    conda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pip" title="pip" class="md-nav__link">
+    pip
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pipenv" title="pipenv" class="md-nav__link">
+    pipenv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jupyter-notebook" title="使用以前版本的 Jupyter Notebook 进行安装" class="md-nav__link">
+    使用以前版本的 Jupyter Notebook 进行安装
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" title="运行" class="md-nav__link">
+    运行
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" title="先决条件和支持的浏览器" class="md-nav__link">
+    先决条件和支持的浏览器
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" title="发展" class="md-nav__link">
+    发展
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="特约" class="md-nav__link">
+    特约
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jupyterlab_1" title="扩展 JupyterLab" class="md-nav__link">
+    扩展 JupyterLab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="执照" class="md-nav__link">
+    执照
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" title="球队" class="md-nav__link">
+    球队
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" title="获得帮助" class="md-nav__link">
+    获得帮助
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" title="每周开发会议" class="md-nav__link">
+    每周开发会议
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -1236,6 +1391,144 @@
     
   
   
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="入门" class="md-nav__link">
+    入门
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" title="安装" class="md-nav__link">
+    安装
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conda" title="conda" class="md-nav__link">
+    conda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pip" title="pip" class="md-nav__link">
+    pip
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pipenv" title="pipenv" class="md-nav__link">
+    pipenv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jupyter-notebook" title="使用以前版本的 Jupyter Notebook 进行安装" class="md-nav__link">
+    使用以前版本的 Jupyter Notebook 进行安装
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" title="运行" class="md-nav__link">
+    运行
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" title="先决条件和支持的浏览器" class="md-nav__link">
+    先决条件和支持的浏览器
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" title="发展" class="md-nav__link">
+    发展
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="特约" class="md-nav__link">
+    特约
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jupyterlab_1" title="扩展 JupyterLab" class="md-nav__link">
+    扩展 JupyterLab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="执照" class="md-nav__link">
+    执照
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" title="球队" class="md-nav__link">
+    球队
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" title="获得帮助" class="md-nav__link">
+    获得帮助
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" title="每周开发会议" class="md-nav__link">
+    每周开发会议
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1247,57 +1540,126 @@
               
                 
                 
-                <h1 id="_1">关于我们<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>Some information about the Jupyter Project and Community</p>
-<p>Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages. Jupyter will always be 100% open-source software, free for all to use and released under the liberal terms of the modified BSD license.</p>
-<p>Jupyter is developed in the open on GitHub, through the consensus of the Jupyter community. For more information on our governance approach, please see our Governance Document.</p>
-<p>All online and in-person interactions and communications directly related to the project are covered by the Jupyter Code of Conduct. This Code of Conduct sets expectations to enable a diverse community of users and contributors to participate in the project with respect and safety.</p>
-<p><img alt="" src="https://jupyter.org/assets/steering.svg" /></p>
-<p>steering committee iconSteering Council The role of the Jupyter Steering Council is to ensure, through working with and serving the broader Jupyter community, the long-term well-being of the project, both technically and as a community. The Jupyter Steering Council currently consists of the following members (in alphabetical order).</p>
-<p>Damian Avila's avatar picture Damian AvilaAnaconda, Inc.
-@damianavila on GitHubMatthias Bussonnier's avatar picture</p>
-<p>Matthias BussonnierUC Merced
-@Carreau on GitHubSylvain Corlay's avatar picture</p>
-<p>Sylvain CorlayQuantStack
-@sylvaincorlay on GitHubAfshin Darian's avatar picture</p>
-<p>Afshin DarianTwo Sigma
-@afshin on GitHubBrian Granger's avatar picture</p>
-<p>Brian GrangerCal Poly, San Luis Obispo
-@ellisonbg on GitHubJason Grout's avatar picture</p>
-<p>Jason GroutBloomberg
-@jasongrout on GitHubJessica Hamrick's avatar picture</p>
-<p>Jessica HamrickDeepMind
-@jhamrick on GitHubPaul Ivanov's avatar picture</p>
-<p>Paul IvanovBloomberg
-@ivanov on GitHubKyle Kelley's avatar picture</p>
-<p>Kyle KelleyNetflix
-@rgbkrk on GitHubThomas Kluyver's avatar picture</p>
-<p>Thomas KluyverUniversity of Southampton
-@takluyver on GitHubPeter Parente's avatar picture</p>
-<p>Peter ParenteValassis Digital
-@parente on GitHubFernando Perez's avatar picture</p>
-<p>Fernando PerezUC Berkeley
-@fperez on GitHubMin Ragan-Kelley's avatar picture</p>
-<p>Min Ragan-KelleySimula Research Lab
-@minrk on GitHubAna Ruvalcaba's avatar picture</p>
-<p>Ana RuvalcabaCal Poly, San Luis Obispo
-@ruv7 on GitHubSteven Silvester's avatar picture</p>
-<p>Steven SilvesterJPMorgan Chase
-@blink1073 on GitHubCarol Willing's avatar picture</p>
-<p>Carol WillingCal Poly
-@willingc on GitHub</p>
-<p>Retired Steering Council Member</p>
-<p>Jonathan Frederic's avatar picture</p>
-<p>Jonathan FredericMember: 2016-2018
-@jdfreder on GitHub</p>
-<p>sponsors</p>
-<p>Sponsors</p>
-<p>Project Jupyter receives direct funding from the following sources: helmsley trust logo sloan logo moore foundation logo google logo rackspace logo fastly logo EU logo microsoft logo
-institutional partnersInstitutional Partners Institutional Partners are organizations that support the project by employing Jupyter Steering Council members. Current Institutional Partners include: anaconda inc logo bloomberg logo netflix logo cal poly logo UC Berkeley logo QuantStack logo JPMorgan Chase logo Two Sigma logo microsoft logo</p>
-<p>Donations</p>
-<p>Jupyter will always be 100% open source software, free for all to use and released under the liberal terms of the modified BSD license. If you have found Project Jupyter to be useful in your work, research or company, please consider making a donation to the project commensurate with your resources.</p>
-<p>All donations will be used strictly to fund the development of Project Jupyter’s open source software, documentation and community. Our donations are managed by the NumFOCUS Foundation, which is the legal and fiscal umbrella for the project.</p>
-<p>NumFOCUS is a 501(c)3 non-profit foundation; if you are subject to US Tax law, your contributions will be tax-deductible.</p>
+                <h1 id="jupyterlab">JupyterLab<a class="headerlink" href="#jupyterlab" title="Permanent link">&para;</a></h1>
+<p><a href="http://jupyterlab.github.io/jupyterlab/">JupyterLab</a></p>
+<p>基于 Web 的交互式和可重现计算的可扩展环境 Jupyter 笔记本和架构。 <a href="https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906">目前已为用户准备</a>。</p>
+<p><a href="http://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a>是<a href="https://jupyter.org">Project Jupyter</a>的下一代用户界面，在灵活而强大的用户界面中提供经典 Jupyter 笔记本（笔记本，终端，文本编辑器，文件浏览器，丰富输出等）的所有熟悉构建模块。
+JupyterLab 最终将取代经典的 Jupyter 笔记本。</p>
+<p>JupyterLab can be extended using <a href="https://www.npmjs.com/">npm</a> packages that use our public APIs. To find JupyterLab extensions, search for the npm keyword <a href="https://www.npmjs.com/search?q=keywords:jupyterlab-extension">jupyterlab-extension</a> or the GitHub topic <a href="https://github.com/topics/jupyterlab-extension">jupyterlab-extension</a>. To learn more about extensions, see the <a href="https://jupyterlab.readthedocs.io/en/latest/user/extensions.html">user documentation</a>.</p>
+<p>当前的 JupyterLab 版本适用于一般用途，扩展 API 将继续使用为 JupyterLab 扩展开发人员进化。</p>
+<p>阅读<a href="http://jupyterlab.readthedocs.io/en/latest/">ReadTheDocs</a>上的最新版本文档.</p>
+<h2 id="_1">入门<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="_2">安装<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p><a href="http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html">install</a> JupyterLab using <code>conda</code>, <code>pip</code>, or <code>pipenv</code>. Conda is recommended if you have no installation preference.</p>
+<p>Project installation instructions from the git sources are available in the <a href="CONTRIBUTING.md">contributor documentation</a>.</p>
+<h4 id="conda">conda<a class="headerlink" href="#conda" title="Permanent link">&para;</a></h4>
+<p>Conda is an open source package management system and environment management system that runs on Windows, macOS, and Linux. Conda packages and distributes software for any language, and by default uses the Anaconda repository managed by Anaconda Inc. To install conda, please <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">see the conda installation instructions</a>.</p>
+<p>Install the <a href="https://anaconda.org/conda-forge/jupyterlab">JupyterLab <code>conda</code> package</a> with:</p>
+<div class="codehilite"><pre><span></span>conda install -c conda-forge jupyterlab
+</pre></div>
+
+<h4 id="pip">pip<a class="headerlink" href="#pip" title="Permanent link">&para;</a></h4>
+<p>pip is a package management system for installing and updating Python packages, and comes with any Python installation. On Ubuntu and Fedora Linux, use the system package manager to install the <code>python3-pip</code> package. <a href="https://docs.python-guide.org/starting/installation/">_The Hitchhiker's Guide to Python_provides guidance on how to install Python</a>; Another option is to <a href="https://www.python.org/getit/">install Python directly from python.org</a>. We suggest you <a href="https://pip.pypa.io/en/stable/installing/">upgrade pip</a> before using it to install other programs.</p>
+<p>JupyterLab requires Python 3.5 or higher.</p>
+<ol>
+<li>When using Windows with Python version 3.5 or higher, use the <a href="https://docs.python.org/3/using/windows.html?highlight=shebang#python-launcher-for-windows">Python Launcher for Windows</a> to use <code>pip</code> with Python version 3:
+    <div class="codehilite"><pre><span></span>py -3 -m pip install jupyterlab
+</pre></div></li>
+<li>If the system has a <code>python3</code> command (standard on Unix-like systems), install with the comand:
+    <div class="codehilite"><pre><span></span>python3 -m pip install jupyterlab
+</pre></div></li>
+<li>Using the <code>python</code> command directly is another option, but this will use the <em>current</em> version of Python (which may be Python version 2 or version 3 if both are installed):
+    <div class="codehilite"><pre><span></span>python -m pip install jupyterlab
+</pre></div></li>
+</ol>
+<p>Some systems have a <code>pip3</code> command that has the same effect as <code>python3 -m pip</code> and/or a <code>pip</code> command that behaves the same as <code>python -m pip</code>.</p>
+<p>Adding <code>--user</code> after <code>pip install</code> will install the files to a local user install directory (typically <code>~/.local/</code> or <code>%APPDATA%\Python</code> on Windows) instead of the system-wide directory. This can be helpful, especially if writing to the system-wide directory is not permitted. However, the user-level <code>bin</code> directory must be added to the <code>PATH</code> environment variable in order to launch <code>jupyter lab</code>.</p>
+<h4 id="pipenv">pipenv<a class="headerlink" href="#pipenv" title="Permanent link">&para;</a></h4>
+<p><code>Pipenv</code> provides users and developers of applications with an easy method to setup a working environment, however Python must be installed first. See the <a href="https://docs.pipenv.org/install">pipenv installation documentation</a> to use Pipenv if it is not installed.</p>
+<p><code>pipenv</code> can be installed as:</p>
+<div class="codehilite"><pre><span></span>pipenv install jupyterlab
+pipenv shell
+</pre></div>
+
+<p>or from a git checkout:</p>
+<div class="codehilite"><pre><span></span>pipenv install git+git://github.com/jupyterlab/jupyterlab.git#egg<span class="o">=</span>jupyterlab
+pipenv shell
+</pre></div>
+
+<p>When using <code>pipenv</code>, in order to launch <code>jupyter lab</code>, activate the project's virtualenv. For example, in the directory where <code>pipenv</code>'s <code>Pipfile</code> and <code>Pipfile.lock</code> live (i.e., where the above commands were run):</p>
+<div class="codehilite"><pre><span></span>pipenv shell
+jupyter lab
+</pre></div>
+
+<h4 id="jupyter-notebook">使用以前版本的 Jupyter Notebook 进行安装<a class="headerlink" href="#jupyter-notebook" title="Permanent link">&para;</a></h4>
+<p>When using a version of Jupyter Notebook earlier than 5.3, the following command must be run
+after installation to enable the JupyterLab server extension:</p>
+<div class="codehilite"><pre><span></span>jupyter serverextension <span class="nb">enable</span> --py jupyterlab --sys-prefix
+</pre></div>
+
+<h3 id="_3">运行<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>Start up JupyterLab using:</p>
+<div class="codehilite"><pre><span></span>jupyter lab
+</pre></div>
+
+<p>JupyterLab will open automatically in the browser. See the <a href="http://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html">documentation</a> for additional details.</p>
+<h3 id="_4">先决条件和支持的浏览器<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>Jupyter notebook version 4.3 or later is required. To check the notebook version, run the command:</p>
+<div class="codehilite"><pre><span></span>jupyter notebook --version
+</pre></div>
+
+<p>The latest versions of the following browsers are currently <em>known to work</em>:</p>
+<ul>
+<li>Firefox</li>
+<li>Chrome</li>
+<li>Safari</li>
+</ul>
+<p>See our <a href="http://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html">documentation</a> for additional details.</p>
+<h2 id="_5">发展<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h3 id="_6">特约<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>To contribute to the project, please read the <a href="CONTRIBUTING.md">contributor documentation</a>.</p>
+<p>JupyterLab follows the Jupyter <a href="https://jupyter.readthedocs.io/en/latest/community/content-community.html">Community Guides</a>.</p>
+<h3 id="jupyterlab_1">扩展 JupyterLab<a class="headerlink" href="#jupyterlab_1" title="Permanent link">&para;</a></h3>
+<p>To start developing an extension, see the <a href="https://jupyterlab.readthedocs.io/en/latest/developer/extension_dev.html">developer documentation</a> and the <a href="http://jupyterlab.github.io/jupyterlab/index.html">API docs</a>.</p>
+<h3 id="_7">执照<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>JupyterLab uses a shared copyright model that enables all contributors to maintain the
+copyright on their contributions. All code is licensed under the terms of the revised <a href="https://github.com/jupyterlab/jupyterlab/blob/master/LICENSE">BSD license</a>.</p>
+<h3 id="_8">球队<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>JupyterLab is part of <a href="http://jupyter.org/">Project Jupyter</a> and is developed by an open community. The maintenance team is assisted by a much larger group of contributors to JupyterLab and Project Jupyter as a whole.</p>
+<p>JupyterLab's current maintainers are listed in alphabetical order, with affiliation, and main areas of contribution:</p>
+<ul>
+<li>Chris Colbert, Project Jupyter (co-creator, application/low-level architecture,
+  technical leadership, vision, PhosphorJS)</li>
+<li>Afshin Darian, Two Sigma (co-creator, application/high-level architecture,
+  prolific contributions throughout the code base).</li>
+<li>Jessica Forde, Project Jupyter (demo, documentation)</li>
+<li>Tim George, Cal Poly (UI/UX design, strategy, management, user needs analysis)</li>
+<li>Brian Granger, Cal Poly (co-creator, strategy, vision, management, UI/UX design,
+  architecture).</li>
+<li>Jason Grout, Bloomberg (co-creator, vision, general development).</li>
+<li>Fernando Perez, UC Berkeley (co-creator, vision).</li>
+<li>Ian Rose, UC Berkeley (Real-time collaboration, document architecture).</li>
+<li>Saul Shanabrook, Quansight (general development, extensions)</li>
+<li>Steven Silvester, JPMorgan Chase (co-creator, release management, packaging,
+  prolific contributions throughout the code base).</li>
+</ul>
+<p>Maintainer emeritus:</p>
+<ul>
+<li>Cameron Oelsen, Cal Poly (UI/UX design).</li>
+</ul>
+<p>This list is provided to give the reader context on who we are and how our team functions.
+To be listed, please submit a pull request with your information.</p>
+<h2 id="_9">获得帮助<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>We encourage you to ask questions on the <a href="https://discourse.jupyter.org/c/jupyterlab">Discourse forum</a>. A question answered there can become a useful resource for others.</p>
+<p>Please use the <a href="https://github.com/jupyterlab/jupyterlab/issues">GitHub issues page</a> to provide feedback or submit a bug report.</p>
+<h3 id="_10">每周开发会议<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>We have videoconference meetings every week where we discuss what we have been working on and get feedback from one another.</p>
+<p>Anyone is welcome to attend, if they would like to discuss a topic or just to listen in.</p>
+<ul>
+<li>When: Wednesdays 9AM PT</li>
+<li>Where: <a href="https://calpoly.zoom.us/my/jupyter"><code>calpoly/jupyter</code> Zoom</a></li>
+<li>What: <a href="https://paper.dropbox.com/doc/JLab-Dev-Meeting-Minutes-2019--AZlv6L3jnv8ntl6kJK88y5M5Ag-Lj0P4kI2JrbA0eXHZSdY5">Meeting notes on Dropbox Paper</a></li>
+</ul>
                 
                   
                 
@@ -1318,7 +1680,7 @@ institutional partnersInstitutional Partners Institutional Partners are organiza
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="jypyter" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../8.Kernels/itypescript/" title="ITypescript" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1327,19 +1689,19 @@ institutional partnersInstitutional Partners Institutional Partners are organiza
                 <span class="md-footer-nav__direction">
                   后退
                 </span>
-                jypyter
+                ITypescript
               </span>
             </div>
           </a>
         
         
-          <a href="../Community/" title="社区" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../91.Visual-Studio/" title="在 Visual Studio 代码中使用 Jupyter 笔记本" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   前进
                 </span>
-                社区
+                在 Visual Studio 代码中使用 Jupyter 笔记本
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

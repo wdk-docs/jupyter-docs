@@ -40,7 +40,7 @@
     
     
       
-        <title>关于我们 - jupyter Docs</title>
+        <title>JupyterHub 中心 - jupyter Docs</title>
       
     
     
@@ -103,7 +103,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#_1" tabindex="1" class="md-skip">
+      <a href="#jupyterhub" tabindex="1" class="md-skip">
         跳转至
       </a>
     
@@ -129,7 +129,7 @@
                 jupyter Docs
               </span>
               <span class="md-header-nav__topic">
-                关于我们
+                JupyterHub 中心
               </span>
             
           
@@ -201,14 +201,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href=".." title="jypyter" class="md-tabs__link md-tabs__link--active">
+      <a href=".." title="jypyter" class="md-tabs__link">
         jypyter
       </a>
     
@@ -276,7 +278,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../5.Hub/" title="5.Hub" class="md-tabs__link">
+        <a href="./" title="5.Hub" class="md-tabs__link md-tabs__link--active">
           5.Hub
         </a>
       
@@ -410,20 +412,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="关于我们" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../About-Us/" title="关于我们" class="md-nav__link">
       关于我们
     </a>
-    
   </li>
 
     
@@ -851,10 +844,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" checked>
     
     <label class="md-nav__link" for="nav-8">
       5.Hub
@@ -870,11 +865,70 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../5.Hub/" title="JupyterHub 中心" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        JupyterHub 中心
+      </label>
+    
+    <a href="./" title="JupyterHub 中心" class="md-nav__link md-nav__link--active">
       JupyterHub 中心
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jupyterhub_1" title="什么是 JupyterHub？" class="md-nav__link">
+    什么是 JupyterHub？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jupyterhub_2" title="JupyterHub 的主要功能" class="md-nav__link">
+    JupyterHub 的主要功能
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jupyterhub_3" title="部署 JupyterHub" class="md-nav__link">
+    部署 JupyterHub
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="加入社区" class="md-nav__link">
+    加入社区
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -1236,6 +1290,43 @@
     
   
   
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#jupyterhub_1" title="什么是 JupyterHub？" class="md-nav__link">
+    什么是 JupyterHub？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jupyterhub_2" title="JupyterHub 的主要功能" class="md-nav__link">
+    JupyterHub 的主要功能
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jupyterhub_3" title="部署 JupyterHub" class="md-nav__link">
+    部署 JupyterHub
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="加入社区" class="md-nav__link">
+    加入社区
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1247,57 +1338,24 @@
               
                 
                 
-                <h1 id="_1">关于我们<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>Some information about the Jupyter Project and Community</p>
-<p>Project Jupyter is a non-profit, open-source project, born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages. Jupyter will always be 100% open-source software, free for all to use and released under the liberal terms of the modified BSD license.</p>
-<p>Jupyter is developed in the open on GitHub, through the consensus of the Jupyter community. For more information on our governance approach, please see our Governance Document.</p>
-<p>All online and in-person interactions and communications directly related to the project are covered by the Jupyter Code of Conduct. This Code of Conduct sets expectations to enable a diverse community of users and contributors to participate in the project with respect and safety.</p>
-<p><img alt="" src="https://jupyter.org/assets/steering.svg" /></p>
-<p>steering committee iconSteering Council The role of the Jupyter Steering Council is to ensure, through working with and serving the broader Jupyter community, the long-term well-being of the project, both technically and as a community. The Jupyter Steering Council currently consists of the following members (in alphabetical order).</p>
-<p>Damian Avila's avatar picture Damian AvilaAnaconda, Inc.
-@damianavila on GitHubMatthias Bussonnier's avatar picture</p>
-<p>Matthias BussonnierUC Merced
-@Carreau on GitHubSylvain Corlay's avatar picture</p>
-<p>Sylvain CorlayQuantStack
-@sylvaincorlay on GitHubAfshin Darian's avatar picture</p>
-<p>Afshin DarianTwo Sigma
-@afshin on GitHubBrian Granger's avatar picture</p>
-<p>Brian GrangerCal Poly, San Luis Obispo
-@ellisonbg on GitHubJason Grout's avatar picture</p>
-<p>Jason GroutBloomberg
-@jasongrout on GitHubJessica Hamrick's avatar picture</p>
-<p>Jessica HamrickDeepMind
-@jhamrick on GitHubPaul Ivanov's avatar picture</p>
-<p>Paul IvanovBloomberg
-@ivanov on GitHubKyle Kelley's avatar picture</p>
-<p>Kyle KelleyNetflix
-@rgbkrk on GitHubThomas Kluyver's avatar picture</p>
-<p>Thomas KluyverUniversity of Southampton
-@takluyver on GitHubPeter Parente's avatar picture</p>
-<p>Peter ParenteValassis Digital
-@parente on GitHubFernando Perez's avatar picture</p>
-<p>Fernando PerezUC Berkeley
-@fperez on GitHubMin Ragan-Kelley's avatar picture</p>
-<p>Min Ragan-KelleySimula Research Lab
-@minrk on GitHubAna Ruvalcaba's avatar picture</p>
-<p>Ana RuvalcabaCal Poly, San Luis Obispo
-@ruv7 on GitHubSteven Silvester's avatar picture</p>
-<p>Steven SilvesterJPMorgan Chase
-@blink1073 on GitHubCarol Willing's avatar picture</p>
-<p>Carol WillingCal Poly
-@willingc on GitHub</p>
-<p>Retired Steering Council Member</p>
-<p>Jonathan Frederic's avatar picture</p>
-<p>Jonathan FredericMember: 2016-2018
-@jdfreder on GitHub</p>
-<p>sponsors</p>
-<p>Sponsors</p>
-<p>Project Jupyter receives direct funding from the following sources: helmsley trust logo sloan logo moore foundation logo google logo rackspace logo fastly logo EU logo microsoft logo
-institutional partnersInstitutional Partners Institutional Partners are organizations that support the project by employing Jupyter Steering Council members. Current Institutional Partners include: anaconda inc logo bloomberg logo netflix logo cal poly logo UC Berkeley logo QuantStack logo JPMorgan Chase logo Two Sigma logo microsoft logo</p>
-<p>Donations</p>
-<p>Jupyter will always be 100% open source software, free for all to use and released under the liberal terms of the modified BSD license. If you have found Project Jupyter to be useful in your work, research or company, please consider making a donation to the project commensurate with your resources.</p>
-<p>All donations will be used strictly to fund the development of Project Jupyter’s open source software, documentation and community. Our donations are managed by the NumFOCUS Foundation, which is the legal and fiscal umbrella for the project.</p>
-<p>NumFOCUS is a 501(c)3 non-profit foundation; if you are subject to US Tax law, your contributions will be tax-deductible.</p>
+                <h1 id="jupyterhub">JupyterHub 中心<a class="headerlink" href="#jupyterhub" title="Permanent link">&para;</a></h1>
+<p>笔记本的多用户版本，专为公司，教室和研究实验室而设计</p>
+<h2 id="jupyterhub_1">什么是 JupyterHub？<a class="headerlink" href="#jupyterhub_1" title="Permanent link">&para;</a></h2>
+<p>JupyterHub 将笔记本的强大功能带给了用户群。它使用户可以访问计算环境和资源，而无需为用户增加安装和维护任务。用户 - 包括学生，研究人员和数据科学家 - 可以在自己的工作空间中使用共享资源完成工作，这些资源可由系统管理员有效管理。</p>
+<p>JupyterHub 可以在云中或您自己的硬件上运行，从而可以为世界上任何用户提供预先配置的数据科学环境。它可定制和可扩展，适用于小型和大型团队，学术课程和大型基础设施。</p>
+<h2 id="jupyterhub_2">JupyterHub 的主要功能<a class="headerlink" href="#jupyterhub_2" title="Permanent link">&para;</a></h2>
+<p>可定制 - JupyterHub 可用于服务于各种环境。它支持 Jupyter 服务器的几十个内核，可用于服务各种用户界面，包括 Jupyter Notebook，Jupyter Lab，RStudio，nteract 等。</p>
+<p>灵活 - 可以使用身份验证配置 JupyterHub，以便提供对用户子集的访问。身份验证是可插入的，支持许多身份验证协议（例如 OAuth 和 GitHub）。</p>
+<p>可扩展 - JupyterHub 是容器友好的，可以使用现代容器技术进行部署。它还可以在 Kubernetes 上运行，并且可以运行多达数万个用户。</p>
+<p>便携式 - JupyterHub 完全是开源的，旨在运行在各种基础架构上。这包括商业云提供商，虚拟机，甚至是您自己的笔记本硬件。</p>
+<p>可以在 JupyterHub 存储库中找到基础 JupyterHub 代码和技术。此存储库和 JupyterHub 文档包含有关 JupyterHub 内部，其自定义及其配置的更多信息。</p>
+<h2 id="jupyterhub_3">部署 JupyterHub<a class="headerlink" href="#jupyterhub_3" title="Permanent link">&para;</a></h2>
+<p>Jupyter 社区策划了两个用于在云中部署的 JupyterHub“发行版”。请点击以下链接获取更多信息。</p>
+<p>零到 JupyterHub for Kubernetes 使用 Docker 在 Kubernetes 上部署 JupyterHub，允许它为大量用户进行有效扩展和维护。 Zero to JupyterHub 是一个快速部署 JupyterHub 的 Helm 图表，以及在 Kubernetes 上部署和配置 JupyterHub 的指南。</p>
+<p>Littlest JupyterHub 是一种专为小型部署而设计的最新版本，是一种在单个虚拟机上安装 JupyterHub 的轻量级方法。 Littlest JupyterHub（也称为 TLJH）提供了有关在多个云提供商上创建 VM 的信息的指南，以及安装和自定义 JupyterHub 以便用户可以在公共 URL 上访问它。</p>
+<h2 id="_1">加入社区<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>像所有 Project Jupyter 一样，JupyterHub 是一个开源和社区驱动的项目。我们很乐意加入我们的社区，贡献代码，时间，评论或赞赏。</p>
+<p>JupyterHub Gitter 频道是 JupyterHub 社区讨论 JupyterHub 技术发展以及部署和调试的最佳实践的地方。</p>
                 
                   
                 
@@ -1318,7 +1376,7 @@ institutional partnersInstitutional Partners Institutional Partners are organiza
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="jypyter" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../4.Cases/science/" title="科学计算" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1327,19 +1385,19 @@ institutional partnersInstitutional Partners Institutional Partners are organiza
                 <span class="md-footer-nav__direction">
                   后退
                 </span>
-                jypyter
+                科学计算
               </span>
             </div>
           </a>
         
         
-          <a href="../Community/" title="社区" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../6.NBViewer/" title="nbviewer" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   前进
                 </span>
-                社区
+                nbviewer
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
